@@ -13,7 +13,7 @@ class MS_Plugins_Add_New {
 
 	function __construct() {
 
-		if( is_network_admin() || ! is_multisite() || ! current_user_can( 'manage_network' ) )
+		if( is_network_admin() || ! is_multisite() )
 			return;
 
 		add_action( 'admin_menu', array( $this, 'menu_page' ) );
