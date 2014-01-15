@@ -6,7 +6,7 @@
  * Author: Pippin Williamson
  * Author URI: http://pippinsplugins.com
  * Contributors: mordauk
- * Version: 1.0
+ * Version: 1.1
  */
 
 class MS_Plugins_Add_New {

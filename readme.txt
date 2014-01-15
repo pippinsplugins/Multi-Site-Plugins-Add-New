@@ -5,8 +5,8 @@ Contributors: mordauk
 Donate link: http://pippinsplugins.com/support-the-site
 Tags: plugins, add new, multisite, multi site
 Requires at least: 3.3
-Tested up to: 3.6
-Stable Tag: 1.0
+Tested up to: 3.8
+Stable Tag: 1.1
 
 
 Adds an "Add New" sub menu item to the Plugins menu of all sites inside of a network for network admins.
@@ -22,11 +22,11 @@ Adds an "Add New" sub menu item to the Plugins menu of all sites inside of a net
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
 
-* First offical release!
-
-== Upgrade Notice ==
+* Fixed missing text domain on "Add New" string
+* Added load_plugin_textdomain() call
+* Added default English language files
 
 = 1.0 =
 
