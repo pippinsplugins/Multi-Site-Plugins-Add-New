@@ -16,13 +16,19 @@ class MS_Plugins_Add_New {
 		if( is_network_admin() || ! is_multisite() )
 			return;
 
+		add_action( 'init', array( $this, 'load_textdomain' ) );
+
 		add_action( 'admin_menu', array( $this, 'menu_page' ) );
 
 	}
 
+	public function load_textdomain() {
+		load_plugin_textdomain( 'mspan', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	}
+
 	public function menu_page() {
 
-		add_plugins_page( __( 'Add New' ), __( 'Add New' ), 'manage_network', 'plugin-install.php' );
+		add_plugins_page( __( 'Add New', 'mspan' ), __( 'Add New' ), 'manage_network', 'plugin-install.php' );
 
 	}
 
