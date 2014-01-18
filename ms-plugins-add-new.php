@@ -28,7 +28,7 @@ class MS_Plugins_Add_New {
 
 	public function menu_page() {
 
-		add_plugins_page( __( 'Add New', 'mspan' ), __( 'Add New' ), 'manage_network', 'plugin-install.php' );
+		add_plugins_page( __( 'Add New', 'mspan' ), __( 'Add New', 'mspan' ), 'manage_network', 'plugin-install.php' );
 
 	}
 
