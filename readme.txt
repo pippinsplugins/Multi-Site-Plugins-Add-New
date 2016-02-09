@@ -5,7 +5,7 @@ Contributors: mordauk
 Donate link: http://pippinsplugins.com/support-the-site
 Tags: plugins, add new, multisite, multi site
 Requires at least: 3.3
-Tested up to: 3.8
+Tested up to: 4.4.2
 Stable Tag: 1.1
 
 
